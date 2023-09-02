@@ -3,9 +3,9 @@ package models.validators;
 import java.util.ArrayList;
 import java.util.List;
 
+import actions.views.EmployeeView;
 import constants.MessageConst;
 import services.EmployeeService;
-import views.EmployeeView;
 
 /**
  * 従業員インスタンスに設定されている値のバリデーションを行うクラス
@@ -117,4 +117,4 @@ public class EmployeeValidator {
         //エラーがない場合は空文字を返却
         return "";
     }
-}
+}}
